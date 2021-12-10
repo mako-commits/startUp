@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import Front from "./pages";
+import Front from "./pages/index";
 import About from "./pages/about";
 import Home from "./pages/home";
 import Footer from "./components/Footer";
