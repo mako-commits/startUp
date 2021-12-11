@@ -33,10 +33,13 @@ function App() {
   return (
     <>
       {/* <Navbar toggle={toggle} /> */}
-      <Dropdown isOpen={isOpen} toggle={toggle} />
+      {/* <Dropdown isOpen={isOpen} toggle={toggle} /> */}
       <Routes>
         <Route path="/" exact element={<Front />} />
-        <Route path="/home" element={<Home toggle={toggle} />} />
+        <Route
+          path="/home"
+          element={<Home toggle={toggle} isOpen={isOpen} />}
+        />
         <Route path="/about" element={<About toggle={toggle} />} />
       </Routes>
       <Footer />
