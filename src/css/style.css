@@ -1,10 +1,53 @@
+.heroImage {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+
+.heroSection {
+  position: relative;
+}
+.heroLogo {
+  position: absolute;
+  top: -30px;
+  left: 600px;
+}
+.heroText {
+  background-color: black;
+  padding-left: 20px;
+  width: 40vw;
+  position: absolute;
+  bottom: 0px;
+  left: 120px;
+}
 hr {
   color: gray;
   width: 70% !important;
   margin-left: auto;
   margin-right: auto;
 }
-@media (max-width: 640px) {
+@media (max-width: 768px) {
+  .topNav {
+    display: none;
+  }
+  .heroLogo {
+    position: absolute;
+    top: -10px;
+    left: 150px;
+  }
+  .heroText {
+    margin: 0 auto;
+    left: 0;
+    width: 80vw;
+    padding-left: 0;
+    position: relative;
+  }
+  .heroImage {
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+  }
   .footer {
     text-align: center !important;
   }
