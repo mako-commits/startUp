@@ -6,6 +6,7 @@ import About from "./pages/about";
 import Home from "./pages/home";
 import Footer from "./components/Footer";
 import Dropdown from "./components/Dropdown";
+import "./css/style.css";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);

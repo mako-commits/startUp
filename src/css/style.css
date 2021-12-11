@@ -1,0 +1,17 @@
+hr {
+  color: gray;
+  width: 70% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 640px) {
+  .footer {
+    text-align: center !important;
+  }
+  .footer-social-links {
+    text-align: center !important;
+  }
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+}
