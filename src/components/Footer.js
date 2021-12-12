@@ -1,26 +1,21 @@
-import { blueGray } from "@tailwindcss/postcss7-compat/colors";
 import React from "react";
 import { Link } from "react-router-dom";
+import footerLogo from "../images/bayc-footer.png";
 
 const Footer = () => {
   return (
-    // <div className="flex justify-center items-center h-16 bg-black text-white">
-    //   <p>Copyright © 2021 StartUp All rights reserved.</p>
-    // </div>
     <>
       <hr className="divider" />
       {/* Bottom area */}
-      <div className="md:flex pt-3 md:items-center md:justify-around bg-black text-white h-64 border-b-8 border-yellow-400 footer">
+      <div className="md:flex pt-3 md:items-center md:justify-around bg-black text-white  border-b-8 border-yellow-400 footer">
         {/* Logo */}
         <div className="text-sm md:order-1 text-gray-700 mb-2 md:mb-0 footer-logo">
-          ·{" "}
           <Link
             className="text-gray-600 dark:text-gray-400 hover:underline text-xl transition duration-150 ease-in-out"
-            to="#"
+            to="/"
           >
-            startUp
-          </Link>{" "}
-          ·{" "}
+            <img src={footerLogo} alt="footerLogo" className="footerLogo" />
+          </Link>
         </div>
 
         {/* Form */}

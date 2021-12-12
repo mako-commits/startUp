@@ -1,22 +1,28 @@
+.footerLogo {
+  width: 200px;
+  height: 200px;
+}
+.navLogo {
+  width: 194.3px;
+  height: 75px;
+}
 .homeImage {
-  /* height: 297px;
-  width: 476px; */
   height: 600px;
   width: 960px;
   margin: 0 auto;
-  opacity: 0.5;
 }
 .heroImage {
-  width: 80vw;
-  height: 80vh;
+  width: 960px;
+  height: 600px;
   margin: 0 auto;
-  opacity: 0.5;
 }
 
 .heroSection {
   position: relative;
 }
 .heroLogo {
+  width: 194.3px;
+  height: 75px;
   position: absolute;
   top: -30px;
   left: 600px;
@@ -27,7 +33,7 @@
   width: 40vw;
   position: absolute;
   bottom: 0px;
-  left: 120px;
+  left: 180px;
 }
 hr {
   color: gray;
@@ -41,6 +47,9 @@ hr {
   padding: 50px 0;
 }
 @media (max-width: 768px) {
+  .heroSection {
+    padding-top: 30px;
+  }
   .homeImage {
     height: 297px;
     width: 476px;
@@ -49,9 +58,10 @@ hr {
     display: none;
   }
   .heroLogo {
+    width: 200px;
     position: absolute;
-    top: -10px;
-    left: 150px;
+    top: 0px;
+    left: 80px;
   }
   .heroText {
     margin: 0 auto;
@@ -71,7 +81,12 @@ hr {
   .footer-social-links {
     text-align: center !important;
   }
-  .footer-logo {
+  .footerLogo {
+    margin: 0 auto;
+    text-align: center;
     margin-bottom: 20px;
+  }
+  .navSocial {
+    display: none;
   }
 }

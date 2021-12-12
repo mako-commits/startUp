@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/startUp/static/css/main.795e2a49.chunk.css",
-    "main.js": "/startUp/static/js/main.18f558c0.chunk.js",
-    "main.js.map": "/startUp/static/js/main.18f558c0.chunk.js.map",
-    "runtime-main.js": "/startUp/static/js/runtime-main.c0b72c31.js",
-    "runtime-main.js.map": "/startUp/static/js/runtime-main.c0b72c31.js.map",
-    "static/js/2.55151875.chunk.js": "/startUp/static/js/2.55151875.chunk.js",
-    "static/js/2.55151875.chunk.js.map": "/startUp/static/js/2.55151875.chunk.js.map",
-    "static/js/3.3773388b.chunk.js": "/startUp/static/js/3.3773388b.chunk.js",
-    "static/js/3.3773388b.chunk.js.map": "/startUp/static/js/3.3773388b.chunk.js.map",
+    "main.css": "/startUp/static/css/main.fb04ab56.chunk.css",
+    "main.js": "/startUp/static/js/main.48b4253b.chunk.js",
+    "main.js.map": "/startUp/static/js/main.48b4253b.chunk.js.map",
+    "runtime-main.js": "/startUp/static/js/runtime-main.d16d6096.js",
+    "runtime-main.js.map": "/startUp/static/js/runtime-main.d16d6096.js.map",
+    "static/js/2.57d0e0f8.chunk.js": "/startUp/static/js/2.57d0e0f8.chunk.js",
+    "static/js/2.57d0e0f8.chunk.js.map": "/startUp/static/js/2.57d0e0f8.chunk.js.map",
+    "static/js/3.8e7416d6.chunk.js": "/startUp/static/js/3.8e7416d6.chunk.js",
+    "static/js/3.8e7416d6.chunk.js.map": "/startUp/static/js/3.8e7416d6.chunk.js.map",
     "index.html": "/startUp/index.html",
-    "static/css/main.795e2a49.chunk.css.map": "/startUp/static/css/main.795e2a49.chunk.css.map",
-    "static/js/2.55151875.chunk.js.LICENSE.txt": "/startUp/static/js/2.55151875.chunk.js.LICENSE.txt",
-    "static/media/img1.714b97f6.jpg": "/startUp/static/media/img1.714b97f6.jpg",
-    "static/media/img2.73fdc2ed.jpg": "/startUp/static/media/img2.73fdc2ed.jpg"
+    "static/css/main.fb04ab56.chunk.css.map": "/startUp/static/css/main.fb04ab56.chunk.css.map",
+    "static/js/2.57d0e0f8.chunk.js.LICENSE.txt": "/startUp/static/js/2.57d0e0f8.chunk.js.LICENSE.txt",
+    "static/media/ape1.34f03422.png": "/startUp/static/media/ape1.34f03422.png",
+    "static/media/ape2.617dc537.png": "/startUp/static/media/ape2.617dc537.png",
+    "static/media/ape3.557cd3e7.png": "/startUp/static/media/ape3.557cd3e7.png",
+    "static/media/ape4.4e095133.png": "/startUp/static/media/ape4.4e095133.png",
+    "static/media/bayc-footer.17271247.png": "/startUp/static/media/bayc-footer.17271247.png",
+    "static/media/bayc-logo-z.32e5c454.png": "/startUp/static/media/bayc-logo-z.32e5c454.png",
+    "static/media/bayc-logo.3d3f3930.png": "/startUp/static/media/bayc-logo.3d3f3930.png",
+    "static/media/bayc-mutant-hero.906ca9b5.jpg": "/startUp/static/media/bayc-mutant-hero.906ca9b5.jpg",
+    "static/media/club-landing.a362fb2b.mp4": "/startUp/static/media/club-landing.a362fb2b.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0b72c31.js",
-    "static/js/2.55151875.chunk.js",
-    "static/css/main.795e2a49.chunk.css",
-    "static/js/main.18f558c0.chunk.js"
+    "static/js/runtime-main.d16d6096.js",
+    "static/js/2.57d0e0f8.chunk.js",
+    "static/css/main.fb04ab56.chunk.css",
+    "static/js/main.48b4253b.chunk.js"
   ]
 }

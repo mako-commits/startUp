@@ -1,13 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import video from "../images/club-landing.mp4";
-import landingLogo from "../images/bayc-logo.png";
 
-const Hero = () => {
+const Social = () => {
   return (
-    <section className="bg-black heroSection">
-      <div className="topNav">
-        <ul className="flex mb-4 md:mb-0 justify-end pr-5">
+    <>
+      {/* Social links */}
+      <div className="md:order-2 navSocial">
+        <ul className="flex mb-4 md:mb-0 justify-center">
           <li>
             <a
               className="flex justify-center items-center text-white bg-teal-500 dark:text-teal-500 dark:bg-gray-800 hover:underline hover:bg-teal-600 rounded-full transition duration-150 ease-in-out"
@@ -72,66 +70,8 @@ const Hero = () => {
           </li>
         </ul>
       </div>
-      <div className="heroSection">
-        <video width="960" height="600" className="heroImage">
-          <source src={video} type="video/mp4" />
-        </video>
-        {/* <img src={heroImage}  alt="heroImage" className="heroImage" /> */}
-        <img src={landingLogo} alt="landingLogo" className="heroLogo" />
-        {/* <h1 className="flex mb-4 md:mb-0 justify-center text-white heroLogo lg:text-5xl">
-          startUp
-        </h1> */}
-        <div className="heroText">
-          {/* Content */}
-          <div className=" mb-8 md:mb-0 text-center md:text-left bg-black">
-            <h5
-              className="h1 lg:text-6xl text-3xl mb-4 font-red-hat-display font-extrabold text-white"
-              data-aos="fade-down"
-            >
-              Welcome to StartUp
-            </h5>
-            <p
-              className="text-xl text-gray-600 dark:text-gray-400"
-              data-aos="fade-down"
-              data-aos-delay="150"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              bibendum imperdiet blandit. Etiam porta venenatis odio ac gravida.
-            </p>
-            {/* CTA form */}
-
-            <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
-              <Link
-                className=" btn text-white hover:bg-teal-400  bg-yellow-500 py-3 px-10 hover:bg-yellow-300 transition duration-300 ease-in-out items-center animate-bounce"
-                to="/home"
-              >
-                Get Started
-              </Link>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-2.5 pb-10 md:pt-40 md:pb-16">
-          {/* Hero content */}
-          <div className="md:grid md:grid-cols-12 md:gap-12 lg:gap-20 items-center">
-            {/* Content */}
-            <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
-              <p
-                className="text-xl text-gray-600 dark:text-gray-400"
-                data-aos="fade-down"
-                data-aos-delay="150"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                bibendum.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </>
   );
 };
 
-export default Hero;
+export default Social;
