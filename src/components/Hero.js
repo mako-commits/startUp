@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import video from "../images/club-landing.mp4";
+import landingHero from "../images/mayc-hero.jpg";
 import landingLogo from "../images/bayc-logo.png";
 
 const Hero = () => {
@@ -73,10 +74,11 @@ const Hero = () => {
         </ul>
       </div>
       <div className="heroSection">
-        <video width="960" height="600" className="heroImage">
+        <img src={landingHero} alt="landingHero" className="heroImage" />
+        {/* <video width="960" height="600" className="heroImage">
           <source src={video} type="video/mp4" />
-        </video>
-        {/* <img src={heroImage}  alt="heroImage" className="heroImage" /> */}
+        </video> */}
+
         <img src={landingLogo} alt="landingLogo" className="heroLogo" />
         {/* <h1 className="flex mb-4 md:mb-0 justify-center text-white heroLogo lg:text-5xl">
           startUp
