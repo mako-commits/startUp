@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/startUp/static/css/main.fb04ab56.chunk.css",
-    "main.js": "/startUp/static/js/main.48b4253b.chunk.js",
-    "main.js.map": "/startUp/static/js/main.48b4253b.chunk.js.map",
+    "main.js": "/startUp/static/js/main.7a2eab40.chunk.js",
+    "main.js.map": "/startUp/static/js/main.7a2eab40.chunk.js.map",
     "runtime-main.js": "/startUp/static/js/runtime-main.d16d6096.js",
     "runtime-main.js.map": "/startUp/static/js/runtime-main.d16d6096.js.map",
     "static/js/2.57d0e0f8.chunk.js": "/startUp/static/js/2.57d0e0f8.chunk.js",
@@ -20,12 +20,13 @@
     "static/media/bayc-logo-z.32e5c454.png": "/startUp/static/media/bayc-logo-z.32e5c454.png",
     "static/media/bayc-logo.3d3f3930.png": "/startUp/static/media/bayc-logo.3d3f3930.png",
     "static/media/bayc-mutant-hero.906ca9b5.jpg": "/startUp/static/media/bayc-mutant-hero.906ca9b5.jpg",
-    "static/media/club-landing.a362fb2b.mp4": "/startUp/static/media/club-landing.a362fb2b.mp4"
+    "static/media/club-landing.a362fb2b.mp4": "/startUp/static/media/club-landing.a362fb2b.mp4",
+    "static/media/mayc-hero.ca847356.jpg": "/startUp/static/media/mayc-hero.ca847356.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d16d6096.js",
     "static/js/2.57d0e0f8.chunk.js",
     "static/css/main.fb04ab56.chunk.css",
-    "static/js/main.48b4253b.chunk.js"
+    "static/js/main.7a2eab40.chunk.js"
   ]
 }
