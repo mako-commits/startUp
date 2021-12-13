@@ -21,7 +21,7 @@ const Home = ({ toggle, isOpen }) => {
           <div class="grid grid-rows-2 md:grid-flow-col gap-4 homeSection2 ">
             <div class="row-span-2 col-span-2 ...">
               <div className="text-white">
-                <h1>Welcom to startup</h1>
+                <h1 className="heading">WELCOME TO THE BORED APE YACHT CLUB</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                   bibendum imperdiet blandit.
