@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/startUp/static/css/main.b25e3b7a.chunk.css",
-    "main.js": "/startUp/static/js/main.f080e817.chunk.js",
-    "main.js.map": "/startUp/static/js/main.f080e817.chunk.js.map",
+    "main.css": "/startUp/static/css/main.2c5ae03d.chunk.css",
+    "main.js": "/startUp/static/js/main.28644ed5.chunk.js",
+    "main.js.map": "/startUp/static/js/main.28644ed5.chunk.js.map",
     "runtime-main.js": "/startUp/static/js/runtime-main.d16d6096.js",
     "runtime-main.js.map": "/startUp/static/js/runtime-main.d16d6096.js.map",
     "static/js/2.57d0e0f8.chunk.js": "/startUp/static/js/2.57d0e0f8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8e7416d6.chunk.js": "/startUp/static/js/3.8e7416d6.chunk.js",
     "static/js/3.8e7416d6.chunk.js.map": "/startUp/static/js/3.8e7416d6.chunk.js.map",
     "index.html": "/startUp/index.html",
-    "static/css/main.b25e3b7a.chunk.css.map": "/startUp/static/css/main.b25e3b7a.chunk.css.map",
+    "static/css/main.2c5ae03d.chunk.css.map": "/startUp/static/css/main.2c5ae03d.chunk.css.map",
     "static/js/2.57d0e0f8.chunk.js.LICENSE.txt": "/startUp/static/js/2.57d0e0f8.chunk.js.LICENSE.txt",
     "static/media/ape1.34f03422.png": "/startUp/static/media/ape1.34f03422.png",
     "static/media/ape2.617dc537.png": "/startUp/static/media/ape2.617dc537.png",
@@ -19,12 +19,21 @@
     "static/media/bayc-footer.17271247.png": "/startUp/static/media/bayc-footer.17271247.png",
     "static/media/bayc-logo-z.32e5c454.png": "/startUp/static/media/bayc-logo-z.32e5c454.png",
     "static/media/bayc-logo.3d3f3930.png": "/startUp/static/media/bayc-logo.3d3f3930.png",
-    "static/media/bayc-mutant-hero.906ca9b5.jpg": "/startUp/static/media/bayc-mutant-hero.906ca9b5.jpg"
+    "static/media/bayc-mutant-hero.906ca9b5.jpg": "/startUp/static/media/bayc-mutant-hero.906ca9b5.jpg",
+    "static/media/garga.34ae2537.png": "/startUp/static/media/garga.34ae2537.png",
+    "static/media/gordy.69c55c41.png": "/startUp/static/media/gordy.69c55c41.png",
+    "static/media/icon3.e9561397.png": "/startUp/static/media/icon3.e9561397.png",
+    "static/media/icon4.dec7cd5b.png": "/startUp/static/media/icon4.dec7cd5b.png",
+    "static/media/icon5.b0ada717.png": "/startUp/static/media/icon5.b0ada717.png",
+    "static/media/mystery-ape.90c29385.gif": "/startUp/static/media/mystery-ape.90c29385.gif",
+    "static/media/sass.72e9f9ba.png": "/startUp/static/media/sass.72e9f9ba.png",
+    "static/media/shirt.62a5e955.png": "/startUp/static/media/shirt.62a5e955.png",
+    "static/media/tomato.75730a4d.png": "/startUp/static/media/tomato.75730a4d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d16d6096.js",
     "static/js/2.57d0e0f8.chunk.js",
-    "static/css/main.b25e3b7a.chunk.css",
-    "static/js/main.f080e817.chunk.js"
+    "static/css/main.2c5ae03d.chunk.css",
+    "static/js/main.28644ed5.chunk.js"
   ]
 }
