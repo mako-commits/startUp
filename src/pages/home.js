@@ -24,44 +24,9 @@ const Home = ({ toggle, isOpen }) => {
     <>
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-      {/* <div className="h-screen flex justify-center items-center bg-green-400">
-        <h1 className="text-9xl uppercase font-black">Home Page</h1>
-      </div> */}
       <section className="bg-black ">
         <div className="inner mx-auto max-w-6xl px-4 sm:px-6">
           <img src={homeHero} alt="homeImage" className="homeImage" />
-          {/* <div className="flex max-w-6xl mx-auto py-11 section3">
-            <div className="text-white">
-              <h1 className="heading">
-                WELCOME TO THE <br />
-                BORED APE YACHT CLUB
-              </h1>
-              <p>
-                Loripsuem m dolor sit amet, consectetur adipiscing elit. Proin
-                bibendum imperdiet blandit.consectetur adipiscing elit. Proin
-                bibendum imperdiet blandit.consectetur adipiscing elit. Proin
-                bibendum imperdiet blandit.
-              </p>
-            </div>
-            <div className="md:grid-flow-col">
-              <div class="grid grid-cols-2 gap-7 picture-grid">
-                <div>
-                  <img src={ape1} alt="homeImage" className="gridImage" />
-                </div>
-                <div>
-                  <img src={ape2} alt="homeImage" className="gridImage" />
-                </div>
-                <div>
-                  <img src={ape3} alt="homeImage" className="gridImage" />
-                </div>
-
-                <div>
-                  <img src={ape4} alt="homeImage" className="gridImage" />
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           <div class="flex justify-between flex-col md:flex-row py-20">
             <div class="flex-initial md:w-3/5 w-full">
               <div className="text-white">
@@ -119,7 +84,7 @@ const Home = ({ toggle, isOpen }) => {
           </div>
 
           {/* */}
-          <div className="cta text-black flex justify-evenly">
+          <div id= "bap" className="cta text-black flex justify-evenly">
             <div>
               <h1 className="heading">BUY AN APE</h1>
             </div>
